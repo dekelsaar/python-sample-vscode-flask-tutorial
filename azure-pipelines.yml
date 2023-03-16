@@ -8,6 +8,7 @@ trigger:
 
 pool:
   vmImage: ubuntu-latest
+  name: test-pool
 strategy:
   matrix:
     Python27:
